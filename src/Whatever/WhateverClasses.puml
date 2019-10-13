@@ -1,0 +1,7 @@
+@startuml
+abstract Class Animal{
+void voice()
+}
+Dog --|> Animal
+Cat --|> Animal
+@enduml
