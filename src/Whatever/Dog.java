@@ -1,10 +1,8 @@
-package Whatever;
+package whatever;
 
-class Dog extends Animal
-{
+class Dog extends Animal {
     @Override
-    void Voice()
-    {
+    void voice() {
         System.out.println("bark bark");
     }
 }

@@ -1,12 +1,10 @@
-package Whatever;
+package whatever;
 
-public class WhateverMain
-{
-    public static void main(String[] args)
-    {
+public class WhateverMain {
+    public static void main(final String[] args) {
         Dog dog = new Dog();
-        dog.Voice();
+        dog.voice();
         Cat cat = new Cat();
-        cat.Voice();
+        cat.voice();
     }
 }

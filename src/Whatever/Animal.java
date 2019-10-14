@@ -1,6 +1,5 @@
-package Whatever;
+package whatever;
 
-abstract class Animal
-{
-    abstract void Voice();
+abstract class Animal {
+    abstract void voice();
 }
