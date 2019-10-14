@@ -1,6 +1,6 @@
 package Whatever;
 
-public class Dog extends Animal
+class Dog extends Animal
 {
     @Override
     void Voice()

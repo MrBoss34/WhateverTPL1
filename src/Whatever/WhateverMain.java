@@ -4,6 +4,9 @@ public class WhateverMain
 {
     public static void main(String[] args)
     {
-        System.out.println("This doesn't do anything");
+        Dog dog = new Dog();
+        dog.Voice();
+        Cat cat = new Cat();
+        cat.Voice();
     }
 }
